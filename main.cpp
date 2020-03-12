@@ -2,7 +2,7 @@
 
 int main()
 {
-	cv::namedWindow("miku_movie", cv::WINDOW_AUTOSIZE);
+	cv::namedWindow("1coro_bot", cv::WINDOW_AUTOSIZE);
 	cv::VideoCapture cap;
 	cap.open("D:/videos/Desktop 2019.07.19 - 17.53.14.01.mp4");
 	if (!cap.isOpened()) {
